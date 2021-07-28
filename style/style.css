@@ -67,7 +67,7 @@ section{
   width: 30%;
 }
 
-#div-contato{
+#div-contato-menu{
   width: 33%;
   display: inline-block;
   background-color: var(--cor3);
@@ -76,7 +76,7 @@ section{
   
 }
 
-#div-educacao{
+#div-educacao-menu{
   display: inline-block;
   background-color: var(--cor4);
   margin: -4px;
@@ -84,7 +84,7 @@ section{
   width: 35%;
 }
 
-#div-experiencia{
+#div-experiencia-menu{
   display: inline-block;
   background-color: var(--cor2);
   margin: -4px;
@@ -93,5 +93,29 @@ section{
 }
 h3{
   text-align: center;
+  
+}
+
+#div-contato{
+  padding-top: 10px;
+  background-color: #F2F2F2;
+  width: 33%;
+}
+#div-contato >h4{
+  color: var(--cor3);
+  text-align: center;
+}
+
+#div-contato >h3{
+  color: var(--cor3);
+  text-align: center;
+}
+
+.icone{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  margin-top: 10px;
   
 }
